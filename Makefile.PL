@@ -16,7 +16,7 @@ WriteMakefile(
     },
     BUILD_REQUIRES => {
         'Test::More' => 0,
-        'Test::WWW::Mechanize::Catalyst' => 0
+        'Test::WWW::Mechanize::Catalyst' => 0,
         'Catalyst' => 0,
         'Catalyst::Model' => 0,
         'Moose' => 0,
@@ -26,7 +26,7 @@ WriteMakefile(
         'Net::SCP::Expect' => 0,
 	'Expect' => '1.14',
 	'Term::ReadPassword' => '0.01',
-	'Net::IPv6Addr' => '0.2'
+	'Net::IPv6Addr' => '0.2',
     },
     PREREQ_PM => {
         'Catalyst' => 0,
@@ -38,7 +38,7 @@ WriteMakefile(
         'Net::SCP::Expect' => 0,
 	'Expect' => '1.14',
 	'Term::ReadPassword' => '0.01',
-	'Net::IPv6Addr' => '0.2'
+	'Net::IPv6Addr' => '0.2',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Catalyst-Model-SCP-*' },
